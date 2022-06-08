@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Web suite">
+    <test verbose="2" preserve-order="true" name="/Users/davidlopez/Downloads/appiumScripts/appium-selenium-integration/appium-selenium-integration">
+        <classes>
+            <class name="test.web.test.LoginTest"/>
+            <class name="test.web.test.WebFactory"/>
+            <class name="test.web.test.CreatePostTest"/>
+        </classes>
+    </test>
+</suite>
